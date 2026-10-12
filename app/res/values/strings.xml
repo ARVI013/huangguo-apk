@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">黄果短剧</string>
+    <string name="switching_host">主站暂时无法访问，已切换到备用地址 %1$s</string>
+    <string name="no_connection">网络连接失败，请检查网络后重试</string>
+    <string name="opened_external">已在浏览器中打开外部链接</string>
+    <string name="download_started">开始下载…</string>
+</resources>

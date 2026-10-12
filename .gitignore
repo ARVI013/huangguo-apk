@@ -1,0 +1,16 @@
+# Build outputs
+build/
+dist/*.idsig
+
+# Downloaded toolchain (~500 MB) - re-download, do not commit:
+#   https://aka.ms/download-jdk/microsoft-jdk-17-windows-x64.zip   -> tools/jdk-17*
+#   https://dl.google.com/android/repository/build-tools_r35_windows.zip -> tools/android-15
+#   https://dl.google.com/android/repository/platform-35_r02.zip  -> tools/android-35
+tools/
+*.zip
+
+# Signing key - back it up privately; publishing it lets anyone sign updates for this package
+keystore/
+
+# Scraped copies of the target site (third-party content, not redistributed)
+probe/
